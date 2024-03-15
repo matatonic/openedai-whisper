@@ -1,4 +1,5 @@
 #
+whisper.env
 hf_home/
 
 # Byte-compiled / optimized / DLL files
