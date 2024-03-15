@@ -1,0 +1,25 @@
+version: "3.3"
+services:
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    stdin_open: true
+    tty: true
+    environment:
+      - HF_HOME=/app/hf_home
+    env_file:
+      - whisper.env
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./hf_home:/app/hf_home
+    runtime: nvidia
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              #device_ids: ['0', '1'] # Select a gpu, or
+              count: all
+              capabilities: [gpu]
