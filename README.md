@@ -91,13 +91,13 @@ Sample API Usage
 You can use it like this:
 
 ```shell
-curl -s http://localhost:8000/v1/audio/transscriptions -H "Content-Type: multipart/form-data" -F model="whisper-1" -F file="@audio.mp3" -F response_format=text
+curl -s http://localhost:8000/v1/audio/transcriptions -H "Content-Type: multipart/form-data" -F model="whisper-1" -F file="@audio.mp3" -F response_format=text
 ```
 
 Or just like this:
 
 ```shell
-curl -s http://localhost:8000/v1/audio/transscriptions -F model="whisper-1" -F file="@audio.mp3"
+curl -s http://localhost:8000/v1/audio/transcriptions -F model="whisper-1" -F file="@audio.mp3"
 ```
 
 Or like this example from the [OpenAI Speech to text guide Quickstart](https://platform.openai.com/docs/guides/speech-to-text/quickstart):
