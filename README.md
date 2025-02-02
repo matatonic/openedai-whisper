@@ -1,6 +1,14 @@
 OpenedAI Whisper
 ----------------
 
+Notice: This software is mostly obsolete and will no longer be updated.
+
+Some Alternative(s):
+
+* https://speaches.ai/
+
+----
+
 An OpenAI API compatible speech to text server for audio transcription and translations, aka. Whisper.
 
 - Compatible with the OpenAI audio/transcriptions and audio/translations API
