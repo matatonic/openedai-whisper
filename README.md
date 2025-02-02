@@ -6,6 +6,7 @@ Notice: This software is mostly obsolete and will no longer be updated.
 Some Alternative(s):
 
 * https://speaches.ai/
+* https://github.com/gpustack/vox-box
 
 ----
 
